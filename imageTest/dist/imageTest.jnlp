@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="imageTest.jnlp">
+  <information>
+    <title>imageTest</title>
+    <vendor>Jolan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="imageTest.jar" size="30294" download="eager" />
+    <jar href="lib\commons-net-3.4.jar" size="293736" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="imageTest" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="imagetest.ImageTest"  name="imageTest" />
+  <update check="always"/>
+</jnlp>
